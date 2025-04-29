@@ -10,8 +10,8 @@ from imutils import face_utils
 from twilio.rest import Client  # Twilio for SMS
 
 # Twilio Configuration (Use your credentials)
-TWILIO_SID = "ACfe13402f685ae91326f77c098bc55df5"
-TWILIO_AUTH_TOKEN = "0908ede318959f00f5f84293b3db8cc6"
+TWILIO_SID = ""
+TWILIO_AUTH_TOKEN = ""
 TWILIO_PHONE_NUMBER = "+17752389331"
 EMERGENCY_CONTACT = "+919912329228"  # Change this to your number
 
@@ -193,6 +193,7 @@ def main():
     cv2.destroyAllWindows()
     arduino.write(b'0\n')  # Stop the motor when program ends
     arduino.close()
-
+# "ACfe13402f685ae91326f77c098bc55df5"
+# "0908ede318959f00f5f84293b3db8cc6"
 if __name__ == "__main__":
     main()
