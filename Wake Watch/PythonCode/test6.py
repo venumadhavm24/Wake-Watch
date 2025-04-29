@@ -13,7 +13,7 @@ from twilio.rest import Client  # Twilio for SMS
 TWILIO_SID = ""
 TWILIO_AUTH_TOKEN = ""
 TWILIO_PHONE_NUMBER = "+17752389331"
-EMERGENCY_CONTACT = "+919912329228"  # Change this to your number
+EMERGENCY_CONTACT = "+919912329444"  # Change this to your number
 
 # Initialize alarm sound
 def initialize_alarm(sound_file):
